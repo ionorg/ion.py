@@ -10,7 +10,15 @@ pip install ion.py
 
 ## Usage
 
-Below is a brief example of intializing and registering a service. Listening to messages on the NATS queue, handling those messages and broadcasting a reply to clients through the islb.
+```toml
+dc = "dc1"
+
+[etcd]
+addrs = ["etcd:2379"]
+
+[nats]
+url = "nats://nats:4222"
+```
 
 ```python
 import asyncio
