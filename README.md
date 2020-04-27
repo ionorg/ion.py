@@ -2,6 +2,12 @@
 
 ion.py provides a python interface for creating python microservices that integrate into the ion architecture.
 
+## Install
+
+```
+pip install ion.py
+```
+
 ## Usage
 
 Below is a brief example of intializing and registering a service. Listening to messages on the NATS queue, handling those messages and broadcasting a reply to clients through the islb.

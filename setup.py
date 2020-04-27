@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='ion',
+    name='ion.py',
     version='0.1',
     description='Ion service discovery for python services',
     long_description='Asyncio based Python serice disconvery client for ION.',
