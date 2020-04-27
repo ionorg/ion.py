@@ -18,5 +18,10 @@ setup(
     author_email="tarrence13@gmail.com",
     license='MIT License',
     packages=['ion'],
+    install_requires=[
+        'asyncio-nats-client',
+        'etcd3',
+        'netifaces'
+    ],
     zip_safe=True
 )
